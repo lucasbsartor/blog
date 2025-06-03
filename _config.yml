@@ -1,0 +1,37 @@
+# Site settings
+
+# The baseurl is empty for user/organization GitHub Pages
+baseurl: "/software-engineer-playbook"
+url: "https://lucasbsartor.github.io/software-engineer-playbook"
+title: "The Software Engineer Playbook"
+default_lang: en-US
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - .vscode
+  - .DS_Store
+  - LICENSE
+  - CNAME
+
+# Collections for each language (optional, for future use)
+# collections:
+#   en-US:
+#     output: true
+#     permalink: /en-US/:path/
+#   pt-BR:
+#     output: true
+#     permalink: /pt-BR/:path/
+
+# Markdown & theme
+markdown: kramdown
+permalink: pretty
+
+# Theme (use minimal for simplicity)
+theme: minima
+
+# Plugins (none required)
+plugins: []
